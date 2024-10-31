@@ -1,6 +1,6 @@
 body {
   font-family: "Karla", sans-serif;
-  font-size: 16px;
+  font-size: clamp(16px, 2vw, 24px);
   background-color: rgb(228, 227, 227);
   color: black;
 }
@@ -33,50 +33,51 @@ h1 {
   padding-top: 24px;
   padding-bottom: 9px;
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 2vw;
 }
 h2 {
   color: hsl(71, 73%, 54%);
-  font-size: 1rem;
+  font-size: 1.4vw;
 }
 
 h3 {
   color: hsl(204, 43%, 93%);
-  font-size: 0.9rem;
+  font-size: 2vw;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 p {
   color: hsl(218, 22%, 90%);
-  font-size: 0.8rem;
+  font-size: 1.5vw;
   line-height: 1.2rem;
   padding-bottom: 13px;
 }
 
 p2 {
   color: hsl(218, 22%, 83%);
-  font-size: 0.8rem;
+  font-size: 1.5vw;
   line-height: 1.2rem;
   padding-bottom: 10px;
   align-items: center;
 }
 p3 {
   color: hsl(218, 22%, 70%);
-  font-size: 0.8rem;
+  font-size: 1.5vw;
   line-height: 1.2rem;
   padding-bottom: 30px;
 }
 ul {
   list-style-type: none;
   /* color: hsl(204, 43%, 98%); */
-  font-size: 0.7rem;
+  font-size: 1vw;
   padding: 0;
   margin: 0;
   padding-bottom: 25px;
-  line-height: 22px;
+  line-height: 2vw;
 }
 li {
   color: hsl(204, 43%, 87%);
+  font-size: 1.5vw;
   line-height: 18px;
 }
 
@@ -101,14 +102,15 @@ div {
 }
 
 button {
+  margin: auto;
+  display: block;
   background-color: hsl(71, 73%, 54%);
   color: white;
   border: none;
   border-radius: 5px;
-  width: 200px;
+  width: 50%;
   padding: 12px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.22);
-  align-items: center;
 }
 
 button:hover {
@@ -118,7 +120,7 @@ button:hover {
   border-color: black; */
   background-color: hsl(71, 73%, 44%);
   transition: 0.2s;
-  font-size: 1rem;
+  font-size: 2vw;
   /* color: hsl(179, 62%, 43%); */
 }
 
@@ -137,7 +139,7 @@ button:hover {
 
 #dollar::before {
   content: "$29";
-  font-size: 1.5rem;
+  font-size: 2.5vw;
   color: white;
   padding-right: 5px;
 }
