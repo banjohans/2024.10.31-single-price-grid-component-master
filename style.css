@@ -37,7 +37,7 @@ h1 {
 }
 h2 {
   color: hsl(71, 73%, 54%);
-  font-size: clamp(10px, 1.4vw, 180px);
+  font-size: clamp(12px, 1.4vw, 180px);
 }
 
 h3 {
@@ -48,21 +48,21 @@ h3 {
 }
 p {
   color: hsl(218, 22%, 90%);
-  font-size: clamp(10px, 1.5vw, 200px);
+  font-size: clamp(12px, 1.5vw, 200px);
   line-height: 1.2rem;
   padding-bottom: 13px;
 }
 
 p2 {
   color: hsl(218, 22%, 83%);
-  font-size: clamp(10px, 1.5vw, 200px);
+  font-size: clamp(12px, 1.5vw, 200px);
   line-height: 1.2rem;
   padding-bottom: 10px;
   align-items: center;
 }
 p3 {
   color: hsl(218, 22%, 70%);
-  font-size: clamp(10px, 1.5vw, 200px);
+  font-size: clamp(12px, 1.5vw, 200px);
   line-height: 1.2rem;
   padding-bottom: 30px;
 }
@@ -78,8 +78,8 @@ ul {
 }
 li {
   color: hsl(204, 43%, 87%);
-  font-size: clamp(10px, 1.5vw, 200px);
-  line-height: 1.2em;
+  font-size: clamp(12px, 1.5vw, 200px);
+  line-height: 1.5em;
   cursor: pointer;
 }
 
